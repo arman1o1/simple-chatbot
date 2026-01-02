@@ -56,7 +56,7 @@ This is a **classic causal-LM chat loop**, intentionally kept simple and transpa
 ## 🛠️ Tech Stack
 
 * **UI:** Gradio
-* **LLM:** `microsoft/phi-2`
+* **LLM:** [`microsoft/phi-2`](https://huggingface.co/microsoft/phi-2)
 * **Framework:** Hugging Face Transformers
 * **Backend:** PyTorch
 * **Streaming:** `TextIteratorStreamer`
