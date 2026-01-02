@@ -68,8 +68,8 @@ This is a **classic causal-LM chat loop**, intentionally kept simple and transpa
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/arman1o1/simple-phi2-chatbot.git
-cd simple-phi2-chatbot
+git clone https://github.com/arman1o1/simple-chatbot.git
+cd simple-chatbot
 ````
 
 ### 2. Install Dependencies
@@ -153,7 +153,6 @@ This aligns well with Phi-2’s instruction-tuned behavior.
 ## 🧪 Limitations
 
 * **Context Window:** Limited by Phi-2’s max context
-* **Memory:** Simple sliding window (no summarization yet)
 * **Safety:** No moderation layer
 * **Scale:** Single-user, local-only
 
