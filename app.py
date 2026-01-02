@@ -182,4 +182,5 @@ with gr.Blocks(title="Simple AI Chatbot") as demo:
     clear_btn.click(clear_chat, None, [chatbot, memory_status])
 
 if __name__ == "__main__":
-    demo.queue().launch(ssr_mode=False)
+
+    demo.queue().launch()
